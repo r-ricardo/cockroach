@@ -21,6 +21,8 @@ public class Book {
 	@Column(name = "num_pages")
 	private int numPages;
 	
+	public Book() {}
+	
 	public Book(long isbn, String title, int numPages) {
 		super();
 		this.isbn = isbn;
